@@ -1,0 +1,115 @@
+/* ------------ Pizza Rezept ---------- */
+
+.big-body-div-element {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px 100px;
+}
+
+.pizza-picture {
+    width: -webkit-fill-available;
+    object-fit: cover;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.headline-1 {
+    margin-top: 100px;
+}
+
+.headline-1-subline {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.headline-1-icons {
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.icon-text {
+    margin: 0 10px;
+}
+
+.headline-1-divs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(226, 215, 215);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* ----------- Person number und Button --------- */
+
+.amount-picker {
+    margin: 30px 0;
+}
+
+.field-height {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+/* ------------- Ingridiants-Amount -------- */
+
+.ingridiants-amount-gray {
+    background-color: rgba(236, 229, 229, 0.863);
+    padding: 15px 0px 15px 30px;
+    border-radius: 5px;
+}
+
+.ingridiants-amount-white {
+    padding: 15px 0px 15px 30px;
+    border-radius: 5px;
+}
+
+
+/* -----------------  Creator and Formular --------- */
+
+.creater-and-formular {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.profil-name {
+    display: flex;
+    align-items: center;
+}
+
+.markus-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.creator-name {
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+form input {
+    font-size: 16px;
+}
+
+form textarea {
+    font-size: 16px;
+    height: 100px;
+}

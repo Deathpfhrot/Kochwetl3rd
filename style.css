@@ -1,0 +1,220 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway';
+    margin: 0px;
+}
+
+
+/* ----------------- header ------------------- */
+
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: black solid 1px;
+}
+
+.header-color-green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(53, 155, 53, 1);
+    width: 30%;
+    height: 8vh;
+}
+
+.logo-size {
+    width: 65px;
+    object-fit: cover;
+}
+
+.header-color-white {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 1);
+    width: 90.00%;
+    height: 8vh;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: solid;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: rgba(245, 245, 245, 1);
+    border-bottom-color: rgba(245, 245, 245, 1);
+    transition: 125ms all ease-in-out;
+}
+
+.navbar a:hover {
+    border-left-color: green;
+    border-right-color: red;
+}
+
+.header-color-red {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(170, 43, 43);
+    width: 30%;
+    height: 8vh;
+    color: white;
+}
+
+.flags {
+    width: 40px;
+    object-fit: cover;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/* ------------------ First Section ------------- */
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 400px 100px 400px;
+}
+
+.first-section-picture {
+    width: 550px;
+    height: 300px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 150px;
+    background-color: rgb(184, 236, 188);
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: white;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, #279648 0%, #3aaf30 51%, #3d8d2e 100%)
+}
+
+
+/* ------------------ Second Section -------------- */
+
+.second-section-under {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.second-section h2 {
+    text-align: center;
+    font-size: 29px;
+}
+
+.second-section-picture {
+    width: 300px;
+    height: 200px;
+}
+
+.border-radius {
+    border-radius: 50% 30%;
+}
+
+
+/* --------------------- Third Section -------------- */
+
+.third-section h2 {
+    text-align: center;
+    font-size: 29px;
+    margin-top: 100px;
+}
+
+.up-down-vote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thump-size {
+    width: 80px;
+    height: 80px;
+}
+
+.third-section-under {
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-section-picture {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 50px 100px;
+}
+
+.infos {
+    margin-top: 120px;
+}
+
+
+/* ----------- Footer ----------- */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(58, 5, 5);
+    padding: 20px;
+}
+
+.footer-line {
+    color: white;
+}
+
+.footer-line a {
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.italy-flag {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer-icons a {
+    margin-right: 10px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/gif/png" href="img2/LogoMakr-9qq3EZ.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Italienische Spezialitäten</title>
+    <link rel="stylesheet" href="rezeptstyle.css">
+    <style>
+
+    </style>
+</head>
+
+<body onload="includeHTML()">
+
+    <div w3-include-html="templates/header.html"></div>
+
+    <div class="big-body-div-element">
+        <div class="headline-1">
+            <h1>Pizza Speziale</h1>
+            <img class="pizza-picture" src="img2/pizza.jpg">
+            <div class="headline-1-subline">
+                <div class="headline-1-divs"><img class="headline-1-icons" src="recipe-icons/timer-48.png" title="zeit">
+                    <spann class="icon-text">15 Min.</spann>
+                </div>
+                <div class="headline-1-divs"><img class="headline-1-icons" src="recipe-icons/brain-3-48.png" title="schwirigkeitsgrad">
+                    <spann class="icon-text">simple</spann>
+                </div>
+                <div class="headline-1-divs"><img class="headline-1-icons" src="recipe-icons/date-to-48.png" title="kalender">
+                    <spann class="icon-text">02.06.21</spann>
+                </div>
+                <div class="headline-1-divs"><img class="headline-1-icons" src="recipe-icons/pill-2-48.png" title="gesund">
+                    <img class="headline-1-icons" src="recipe-icons/star-48.png">
+                    <img class="headline-1-icons" src="recipe-icons/star-48.png">
+                    <img class="headline-1-icons" src="recipe-icons/star-48.png">
+                    <img class="headline-1-icons" src="recipe-icons/star-48.png">
+                    <spann class="icon-text"> / 5</spann>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+        <div class="amount-picker">
+            <spann>Zutaten für</spann>
+            <input class="field-height" placeholder="Personen Anzahl">
+            <button type="submit" class="button">Portionen</button>
+        </div>
+
+        <div class="ingridiants">
+            <div class="ingridiants-amount-gray">225 g Mehl</div>
+            <div class="ingridiants-amount-white">1 / 4 Würfel Hefe</div>
+            <div class="ingridiants-amount-gray">370 ml Wasser (Warm)</div>
+            <div class="ingridiants-amount-white">1 Prise Salz </div>
+            <div class="ingridiants-amount-gray">1 EL Oliven öl</div>
+            <div class="ingridiants-amount-white">
+                <ul>Dekozutaten:
+                    <li>Salami* Schinken* Pute* Succuk*</li>
+                    <li>Champignons* Mozarella* Fisch*</li>
+                </ul>
+            </div>
+            <div class="ingridiants-amount-gray">Käse 20 g</div>
+            <div class="ingridiants-amount-white">Oregano</div>
+            <div class="ingridiants-amount-gray">1 / 2 Halb Zwiebel</div>
+            <div class="ingridiants-amount-white">50 g Tomaten</div>
+        </div>
+
+
+        <div class="Zubereitung">
+            <h2>Zubereitung</h2>
+            <div class="headline-1-subline">
+                <div class="headline-1-divs"><img class="headline-1-icons" src="recipe-icons/timer-48.png" title="zeit">
+                    <spann class="icon-text">ca. 15 Minuten</spann>
+                </div>
+                <div class="headline-1-divs"><img class="headline-1-icons" src="recipe-icons/timer-48.png" title="zeit">
+                    <spann class="icon-text">Gesamtzeit ca. 30 Minuten</spann>
+                </div>
+            </div>
+            <spann>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum cumque laudantium dicta quisquam distinctio aliquid quis adipisci dignissimos! Minus alias laborum a rem sunt eaque officia atque cupiditate aliquid unde!</spann>
+        </div>
+
+        <div class="creater-and-formular">
+            <div>
+                <h3>Rezept erstellt von</h3>
+                <div class="profil-name">
+                    <img class="markus-picture" src="profil-pictures/markup-profil-picture.JPG">
+                    <spann class="creator-name">Markus</spann>
+                </div>
+            </div>
+            <div>
+                <h3>Formular</h3>
+                <form action="http://gruppe-80.developerakademie.com/Markus%20Php/send_mail.php" method="POST">
+                    <input name="name" placeholder="Dein Name">
+                    <textarea name="message" placeholder="Nachricht an Uns"></textarea>
+                    <button type="submit">Mail senden</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div w3-include-html="templates/footer.html"></div>
+
+</body>
+
+</html>
